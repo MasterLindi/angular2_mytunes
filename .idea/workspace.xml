@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="daa7cd43-d3fd-4f30-ba12-1b0835dc9869" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/common/pipes/ellpipsis.pipe.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/music/albums.component.ts" afterPath="$PROJECT_DIR$/app/music/albums.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/music/albums.component.js" afterPath="$PROJECT_DIR$/js/music/albums.component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/music/albums.component.js.map" afterPath="$PROJECT_DIR$/js/music/albums.component.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/user/login.component.ts" afterPath="$PROJECT_DIR$/app/user/login.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/user/login.component.js" afterPath="$PROJECT_DIR$/js/user/login.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/user/login.component.js.map" afterPath="$PROJECT_DIR$/js/user/login.component.js.map" />
     </list>
     <ignored path="mytunes.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,22 +40,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ellpipsis.pipe.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ellpipsis.pipe.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/common/pipes/ellpipsis.pipe.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25167784">
+            <state vertical-scroll-proportion="0.0">
               <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-              <folding />
+              <folding>
+                <marker date="1457109460000" expanded="true" signature="58:82" placeholder="{&quot;name&quot;: 'ellipsis'...}" />
+                <marker date="1457109460000" expanded="true" signature="135:264" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="album.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/music/album.component.ts">
+      <file leaf-file-name="login.component.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/user/login.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-              <folding />
+            <state vertical-scroll-proportion="0.37751678">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <folding>
+                <marker date="1457109977000" expanded="true" signature="152:363" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,7 +82,6 @@
         <option value="$PROJECT_DIR$/tsconfig.json" />
         <option value="$PROJECT_DIR$/typings.json" />
         <option value="$PROJECT_DIR$/app/user/register.component.ts" />
-        <option value="$PROJECT_DIR$/app/user/login.component.ts" />
         <option value="$PROJECT_DIR$/app/common/welcome.component.ts" />
         <option value="$PROJECT_DIR$/app/common/search.component.ts" />
         <option value="$PROJECT_DIR$/app/common/pagination.component.ts" />
@@ -95,6 +98,7 @@
         <option value="$PROJECT_DIR$/app/common/pipes/allpipsi.pipe.ts" />
         <option value="$PROJECT_DIR$/app/music/albums.component.ts" />
         <option value="$PROJECT_DIR$/app/common/pipes/ellpipsis.pipe.ts" />
+        <option value="$PROJECT_DIR$/app/user/login.component.ts" />
       </list>
     </option>
   </component>
@@ -1091,11 +1095,17 @@
       <option name="project" value="LOCAL" />
       <updated>1457108936078</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add custom pipe">
+      <created>1457109484442</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1457109484442</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12117000" />
+    <option name="totallyTimeSpent" value="12634000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1023" extended-state="6" />
@@ -1143,7 +1153,8 @@
     <MESSAGE value="fix constructor" />
     <MESSAGE value="add RouterLink for Album" />
     <MESSAGE value="open album and alert page + id" />
-    <option name="LAST_COMMIT_MESSAGE" value="open album and alert page + id" />
+    <MESSAGE value="add custom pipe" />
+    <option name="LAST_COMMIT_MESSAGE" value="add custom pipe" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1223,14 +1234,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/user/login.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1368,9 +1371,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/common/pipes/ellpipsis.pipe.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25167784">
+        <state vertical-scroll-proportion="0.0">
           <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding />
+          <folding>
+            <marker date="1457109460000" expanded="true" signature="58:82" placeholder="{&quot;name&quot;: 'ellipsis'...}" />
+            <marker date="1457109460000" expanded="true" signature="135:264" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/user/login.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37751678">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <marker date="1457109977000" expanded="true" signature="152:363" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

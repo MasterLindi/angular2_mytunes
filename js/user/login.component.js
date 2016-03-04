@@ -24,7 +24,7 @@ System.register(['angular2/core'], function(exports_1, context_1) {
                 LoginComponent = __decorate([
                     core_1.Component({
                         selector: 'login-component',
-                        template: "\n    <h1>Login</h1>\n    "
+                        template: "\n    <h1>Login</h1>\n    <form #loginForm=\"ngForm\">\n        <input type=\"text\" required #email=\"ngForm\" ngControl=\"email\">\n        <input type=\"password\">\n        <button type=\"submit\" value=\"Submit\" [disabled]=\"!loginForm.form.valid\">Submit</button>\n    </form>\n      "
                     }), 
                     __metadata('design:paramtypes', [])
                 ], LoginComponent);
