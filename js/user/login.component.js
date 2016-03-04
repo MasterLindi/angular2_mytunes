@@ -21,10 +21,13 @@ System.register(['angular2/core'], function(exports_1, context_1) {
             LoginComponent = (function () {
                 function LoginComponent() {
                 }
+                LoginComponent.prototype.doLogin = function (email) {
+                    alert("Login email is: " + email);
+                };
                 LoginComponent = __decorate([
                     core_1.Component({
                         selector: 'login-component',
-                        template: "\n    <h1>Login</h1>\n    <form #loginForm=\"ngForm\">\n        <input type=\"text\" required #email=\"ngForm\" ngControl=\"email\">\n        <input type=\"password\">\n        <button type=\"submit\" value=\"Submit\" [disabled]=\"!loginForm.form.valid\">Submit</button>\n    </form>\n      "
+                        template: "\n    <h1>Login</h1>\n    <form #loginForm=\"ngForm\">\n        <input type=\"text\" required #email=\"ngForm\" ngControl=\"email\">\n        <input type=\"password\">\n        <button type=\"submit\" value=\"Submit\"\n        [disabled]=\"!loginForm.form.valid\"\n        (click)=\"doLogin(email.value)\">Submit</button>\n    </form>\n      "
                     }), 
                     __metadata('design:paramtypes', [])
                 ], LoginComponent);

@@ -56,10 +56,11 @@
       <file leaf-file-name="login.component.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/user/login.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37751678">
-              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.5285235">
+              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
               <folding>
-                <marker date="1457109977000" expanded="true" signature="152:363" placeholder="..." />
+                <marker date="1457110151000" expanded="true" signature="152:410" placeholder="..." />
+                <marker date="1457110151000" expanded="true" signature="301:398" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -1101,11 +1102,17 @@
       <option name="project" value="LOCAL" />
       <updated>1457109484442</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add form validation to login component">
+      <created>1457110015897</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1457110015897</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12634000" />
+    <option name="totallyTimeSpent" value="12804000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1023" extended-state="6" />
@@ -1154,7 +1161,8 @@
     <MESSAGE value="add RouterLink for Album" />
     <MESSAGE value="open album and alert page + id" />
     <MESSAGE value="add custom pipe" />
-    <option name="LAST_COMMIT_MESSAGE" value="add custom pipe" />
+    <MESSAGE value="add form validation to login component" />
+    <option name="LAST_COMMIT_MESSAGE" value="add form validation to login component" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1382,10 +1390,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/user/login.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37751678">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.5285235">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding>
-            <marker date="1457109977000" expanded="true" signature="152:363" placeholder="..." />
+            <marker date="1457110151000" expanded="true" signature="152:410" placeholder="..." />
+            <marker date="1457110151000" expanded="true" signature="301:398" placeholder="..." />
           </folding>
         </state>
       </provider>
