@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="daa7cd43-d3fd-4f30-ba12-1b0835dc9869" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/music/services/music.srv.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/main.ts" afterPath="$PROJECT_DIR$/app/main.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/music/models/album.ts" afterPath="$PROJECT_DIR$/app/music/models/album.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/music/services/music.srv.ts" afterPath="$PROJECT_DIR$/app/music/services/music.srv.ts" />
     </list>
     <ignored path="mytunes.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,30 +26,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="music.srv.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="music.srv.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/music/services/music.srv.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.75503355">
+              <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="album.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/music/models/album.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.583333">
-              <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="68" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/main.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.12583892">
+            <state vertical-scroll-proportion="0.0">
               <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
               <folding />
             </state>
@@ -85,9 +84,10 @@
         <option value="$PROJECT_DIR$/app/app.component.ts" />
         <option value="$PROJECT_DIR$/app/music/models/ialbum.ts" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/app/music/services/music.srv.ts" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/app/main.ts" />
+        <option value="$PROJECT_DIR$/app/music/models/album.ts" />
+        <option value="$PROJECT_DIR$/app/music/services/music.srv.ts" />
       </list>
     </option>
   </component>
@@ -269,7 +269,7 @@
     <property name="options.lastSelected" value="MavenSettings" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mytunes_solution/mytunes" />
     <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -1008,11 +1008,17 @@
       <option name="project" value="LOCAL" />
       <updated>1457101176316</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add http providers and first service">
+      <created>1457101548706</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1457101548706</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6360000" />
+    <option name="totallyTimeSpent" value="8570000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1023" extended-state="6" />
@@ -1054,7 +1060,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="implement album class" />
-    <option name="LAST_COMMIT_MESSAGE" value="implement album class" />
+    <MESSAGE value="add http providers and first service" />
+    <option name="LAST_COMMIT_MESSAGE" value="add http providers and first service" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1216,22 +1223,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/music/models/album.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/music/services/music.srv.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.583333">
@@ -1242,8 +1233,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/main.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12583892">
+        <state vertical-scroll-proportion="0.0">
           <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/music/models/album.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="68" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/music/services/music.srv.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.75503355">
+          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
           <folding />
         </state>
       </provider>
