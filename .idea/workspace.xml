@@ -3,8 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="daa7cd43-d3fd-4f30-ba12-1b0835dc9869" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/music/albums.component.ts" afterPath="$PROJECT_DIR$/app/music/albums.component.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/music/models/album.ts" afterPath="$PROJECT_DIR$/app/music/models/album.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/music/services/music.srv.ts" afterPath="$PROJECT_DIR$/app/music/services/music.srv.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js.map" afterPath="$PROJECT_DIR$/js/main.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/music/albums.component.js" afterPath="$PROJECT_DIR$/js/music/albums.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/music/albums.component.js.map" afterPath="$PROJECT_DIR$/js/music/albums.component.js.map" />
     </list>
     <ignored path="mytunes.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,31 +31,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="music.srv.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/music/services/music.srv.ts">
+      <file leaf-file-name="albums.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/music/albums.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.75503355">
-              <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
-              <folding />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+              <folding>
+                <marker date="1457107990000" expanded="true" signature="231:319" placeholder="..." />
+                <marker date="1457107990000" expanded="true" signature="270:309" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="album.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="album.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/music/models/album.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="68" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
+            <state vertical-scroll-proportion="0.35234898">
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/main.ts">
+      <file leaf-file-name="album.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/music/album.component.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+              <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -74,7 +82,6 @@
         <option value="$PROJECT_DIR$/typings.json" />
         <option value="$PROJECT_DIR$/app/user/register.component.ts" />
         <option value="$PROJECT_DIR$/app/user/login.component.ts" />
-        <option value="$PROJECT_DIR$/app/music/albums.component.ts" />
         <option value="$PROJECT_DIR$/app/common/welcome.component.ts" />
         <option value="$PROJECT_DIR$/app/common/search.component.ts" />
         <option value="$PROJECT_DIR$/app/common/pagination.component.ts" />
@@ -86,8 +93,9 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/app/main.ts" />
-        <option value="$PROJECT_DIR$/app/music/models/album.ts" />
+        <option value="$PROJECT_DIR$/app/music/albums.component.ts" />
         <option value="$PROJECT_DIR$/app/music/services/music.srv.ts" />
+        <option value="$PROJECT_DIR$/app/music/models/album.ts" />
       </list>
     </option>
   </component>
@@ -1014,11 +1022,17 @@
       <option name="project" value="LOCAL" />
       <updated>1457101548706</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="create observable in music.srv.ts">
+      <created>1457104768213</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1457104768213</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8570000" />
+    <option name="totallyTimeSpent" value="10847000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1023" extended-state="6" />
@@ -1030,9 +1044,9 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -1061,10 +1075,13 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="implement album class" />
     <MESSAGE value="add http providers and first service" />
-    <option name="LAST_COMMIT_MESSAGE" value="add http providers and first service" />
+    <MESSAGE value="create observable in music.srv.ts" />
+    <option name="LAST_COMMIT_MESSAGE" value="create observable in music.srv.ts" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -1143,22 +1160,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/music/albums.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/music/album.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/user/login.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1231,26 +1232,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/main.ts">
+    <entry file="file://$PROJECT_DIR$/node_modules/rxjs/observable/dom/AjaxObservable.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+          <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/music/models/album.ts">
+    <entry file="file://$PROJECT_DIR$/node_modules/rxjs/Subscriber.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="68" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/angular2/src/core/linker/interfaces.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="106" column="17" selection-start-line="106" selection-start-column="17" selection-end-line="106" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/music/services/music.srv.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75503355">
-          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/music/album.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/music/albums.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <marker date="1457107990000" expanded="true" signature="231:319" placeholder="..." />
+            <marker date="1457107990000" expanded="true" signature="270:309" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/music/models/album.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35234898">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding />
         </state>
       </provider>

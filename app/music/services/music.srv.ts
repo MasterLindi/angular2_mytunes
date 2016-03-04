@@ -1,7 +1,7 @@
 import {Injectable} from "angular2/core";
 import {Http} from "angular2/http";
 import {Observable} from "rxjs/Observable";
-import "rxjs/operator/add/map";
+import "rxjs/add/operator/map";
 import {IAlbum} from "../models/ialbum";
 import {Album} from "../models/album";
 
@@ -28,10 +28,13 @@ export class MusicService {
                     results.albummatches.album.forEach(data => {
                         albums.push(new Album(data["mbid"], data["name"], data["artist"], data["url"]));
                     });
-                    return {
+                    return ({
                         albums: albums
-                    }
-                });
+                    });
+                })
+                .subscribe(res => {
+                observable.next(res);
+            });
         });
     }
 }

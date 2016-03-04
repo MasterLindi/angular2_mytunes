@@ -1,4 +1,4 @@
-System.register(['angular2/core'], function(exports_1, context_1) {
+System.register(['angular2/core', "./services/music.srv"], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,23 +10,36 @@ System.register(['angular2/core'], function(exports_1, context_1) {
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1;
+    var core_1, music_srv_1;
     var AlbumsComponent;
     return {
         setters:[
             function (core_1_1) {
                 core_1 = core_1_1;
+            },
+            function (music_srv_1_1) {
+                music_srv_1 = music_srv_1_1;
             }],
         execute: function() {
             AlbumsComponent = (function () {
-                function AlbumsComponent() {
+                function AlbumsComponent(musicService) {
+                    this.musicService = musicService;
+                    this.albums = [];
                 }
+                AlbumsComponent.prototype.ngOnInit = function () {
+                    var _this = this;
+                    this.musicService.albumSearch("linkin", 1)
+                        .subscribe(function (results) {
+                        _this.albums = results.albums;
+                    });
+                };
                 AlbumsComponent = __decorate([
                     core_1.Component({
                         selector: 'albums-component',
-                        template: "\n    <h1>Albums</h1>\n    "
+                        template: "\n    <h1>Albums</h1>\n    <ul>\n        <li *ngFor=\"#album of albums\">\n        {{ album.name }}\n        </li>\n    </ul>\n    ",
+                        providers: [music_srv_1.MusicService]
                     }), 
-                    __metadata('design:paramtypes', [])
+                    __metadata('design:paramtypes', [music_srv_1.MusicService])
                 ], AlbumsComponent);
                 return AlbumsComponent;
             }());
