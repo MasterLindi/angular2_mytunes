@@ -7,7 +7,10 @@ export class Album implements IAlbum{
     url:string;
 
     constructor(id:number, name:string, artist: string, url:string){
+        this.id = id;
         this.name = name;
+        this.artist = artist;
+        this.url = url;
     }
 
     getImage(size:AlbumSize) {
