@@ -8,7 +8,7 @@ import {RouterLink} from "angular2/router";
     template: `
     <h1>Albums</h1>
     <ul>
-        <li *ngFor="#album of albums" [routerLink]="['Album', {id : album.id}]">
+        <li *ngFor="#album of albums" [routerLink]="['Album', {id : album.id, page: 0}]">
         {{ album.name }}
         </li>
     </ul>
