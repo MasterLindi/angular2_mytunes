@@ -1,17 +1,19 @@
 import {Component, OnInit} from 'angular2/core';
 import {MusicService} from "./services/music.srv";
 import {IAlbum} from "./models/ialbum";
+import {RouterLink} from "angular2/router";
 
 @Component({
     selector: 'albums-component',
     template: `
     <h1>Albums</h1>
     <ul>
-        <li *ngFor="#album of albums">
+        <li *ngFor="#album of albums" [routerLink]="['Album', {id : album.id}]">
         {{ album.name }}
         </li>
     </ul>
     `,
+    directives: [RouterLink],
     providers: [MusicService]
 })
 export class AlbumsComponent implements OnInit {
