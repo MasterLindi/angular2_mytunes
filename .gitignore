@@ -2,4 +2,6 @@
 
 /node_modules
 /.idea
+/typings
+/mytunes.iml
 /js
